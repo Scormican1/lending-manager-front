@@ -1,52 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Source+Serif+Pro:ital@1&display=swap");
+
 body {
-    background: rgb(238, 234, 234);
+  background: rgb(238, 234, 234);
 }
 
 .header {
-    font-family: cursive;
-    font-size: xx-large;
-    display: flex;
-    background-color: rgb(206, 137, 190);
-    justify-content: center;
+  font-family: "Avenir-Black";
+  font-size: x-large;
+  display: flex;
+  padding-left: 25px;
+  background-color: rgb(0, 0, 0);
+  justify-content: left;
+  height: 75px;
+}
+
+.title {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.lendingText {
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+
+.managerText {
+  display: flex;
+  color: rgb(255, 226, 7);
+}
+
+.hero {
+  padding: 20px;
+  margin: 0 0 30px;
+  background-image: url("../public/assest/bg.jpg");
+  background-size: cover;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px auto;
-    max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  font-size: x-large;
 }
 
 .form label {
-    font-family: cursive;
-    font-weight: 700;
-    width: 100%;
+  /* font-family: cursive; */
+  font-weight: 700;
+  width: 100%;
+  font-size: x-large;
+  color: rgb(25, 22, 26);
 }
 
 .form input {
-    display: block;
-    background-color: rgb(238, 221, 234);
-    width: 100%;
-    padding: 5px 10px;
-    box-sizing: border-box;
+  display: block;
+  background-color: white;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: large;
+  border: none;
 }
 
-input[type=submit] {
-    border: none;
-    background-color: pink;
-    font-weight: 700;
-    padding: 20px;
-    cursor: pointer;
+input[type="submit"] {
+  border: color black;
+  background-color: rgb(237, 230, 21);
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 2rem;
+  border-color: #ffd301fa;
 }
 
-input[type=submit]:hover {
-    background-color: rgb(252, 167, 181);
+input[type="submit"]:hover {
+  background-color: #ffd301fa (206, 236, 52);
 }
-
-
 
 label {
-    display: block;
+  display: block;
+}
+
+.css-5k409z-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87) !important;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+  overflow: hidden !important;
+  min-width: 275px;
+  border: 3px solid #201d1e !important;
+  font-family: Indie Flower !important;
+  font-style: oblique !important;
 }

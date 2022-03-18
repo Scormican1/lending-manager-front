@@ -1,7 +1,10 @@
 const Navbar = () => {
   return (
     <nav className="header">
-      <h1>Lending Manager</h1>
+      <div className="title">
+      <div className="lendingText">Lending</div>
+      <div className="managerText">Manager</div>
+      </div>
     </nav>
   );
 };
