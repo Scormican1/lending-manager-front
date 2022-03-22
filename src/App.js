@@ -51,7 +51,7 @@ function App() {
         {itemsBorrowed ? (
           itemsBorrowed.map((item) => {
             return (
-              <Card sx={{ minWidth: 275,border:'3px solid pink', fontFamily:'Indie Flower',fontStyle:'oblique' }}>
+              <Card sx={{ minWidth: 275,border:'3px solid black', fontFamily:'Indie Flower',fontStyle:'oblique' }}>
                 <CardContent>
                   <Typography
                     sx={{ fontSize: 18 }}
@@ -62,7 +62,7 @@ function App() {
                     {item.borrowerName}
                   </Typography>
                   <Typography>Item: {item.item}</Typography>
-                  <Typography>Item discription{item.itemDiscription}</Typography>
+                  <Typography>Item description: {item.setItemDescription}</Typography>
                   <Typography>Date borrowed: {item.dateBorrowed}</Typography>
                   <Typography>Return date: {item.returnDate}</Typography>
                   <StyledRating
